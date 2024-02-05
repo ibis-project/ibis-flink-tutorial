@@ -13,7 +13,7 @@ def write_fraud_detection_data_from_s3(producer):
     topic = "transaction"
     batch_size = 1000
 
-    bucket_name = "claypot-fraud-detection"
+    bucket_name = "ibis-fraud-detection"
     object_key = "FraudTransactions.csv"
 
     # Generate the S3 URL
